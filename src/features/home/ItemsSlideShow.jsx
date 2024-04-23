@@ -122,10 +122,8 @@ const ItemsSlideShow = ({ templete, description }) => {
         ""
       )}
       {
-        // {templete === "templete1" ? templete1(description) : templete2()}
+        templete === "templete1" ? templete1(description) : templete2()
         // templete3(description)
-        // templete1()
-        templete2()
       }
     </div>
   );
