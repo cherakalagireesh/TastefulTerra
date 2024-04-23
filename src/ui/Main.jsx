@@ -15,9 +15,9 @@ export default function Main() {
     <main className="h-main-sm md:h-main-md lg:h-main-lg overflow-y-auto">
       <Container>
         <Home />
-        {/* <SearchedItems /> */}
-        {/* <Menu /> */}
-        {/* <Cabins /> */}
+        <SearchedItems />
+        <Menu />
+        <Cabins />
         {/* <Modal>
           <CabinDetails />
         </Modal> */}
