@@ -17,7 +17,7 @@ const MainSlide = ({ data }) => {
       />
       <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-25 text-gray-200 pb-8 md:p-12 lg:p-16 rounded-xl">
         <div className="text-center p-8">
-          <p className="text-lg md:text-xl lg:text-2xl font-bold md:mb-4 mb-2 line-clamp-3 md:line-clamp-none">
+          <p className="text-xl md:text-xl lg:text-2xl font-bold md:mb-4 mb-2 line-clamp-3 md:line-clamp-none">
             {data.quote}
           </p>
           <p className="text-sm md:text-base lg:text-lg line-clamp-3  md:line-clamp-none">
