@@ -8,21 +8,23 @@ import Spinner from "./Spinner.jsx";
 import Reviews from "../pages/Reviews.jsx";
 import Home from "../pages/Home.jsx";
 import items from "../Data/items.js";
+import Loader from "./Loader.jsx";
 
 export default function Main() {
   console.log(items);
   return (
     <main className="h-main-sm md:h-main-md lg:h-main-lg overflow-y-auto">
       <Container>
-        <Home />
+        {/* <Home />
         <SearchedItems />
         <Menu />
-        <Cabins />
+        <Cabins /> */}
         {/* <Modal>
           <CabinDetails />
         </Modal> */}
         {/* <Spinner /> */}
         {/* <Reviews /> */}
+        <Loader />
       </Container>
     </main>
   );

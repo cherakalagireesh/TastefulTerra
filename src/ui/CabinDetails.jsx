@@ -42,8 +42,6 @@ export default function CabinDetails() {
     // Add more cabin categories here
   ];
 
-  console.log(cabinCategories);
-
   return (
     <div>
       <div>
