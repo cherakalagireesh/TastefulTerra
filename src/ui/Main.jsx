@@ -16,17 +16,17 @@ export default function Main() {
   return (
     <main className="h-main-sm md:h-main-md lg:h-main-lg overflow-y-auto relative">
       <Container>
-        {/* <Home />
+        <Home />
         <SearchedItems />
         <Menu />
-        <Cabins /> */}
+        <Cabins />
         {/* <Modal>
           <CabinDetails />
         </Modal> */}
         {/* <Spinner /> */}
         {/* <Reviews /> */}
-        <Loader />
-        <Message />
+        {/* <Loader /> */}
+        {/* <Message /> */}
       </Container>
     </main>
   );
