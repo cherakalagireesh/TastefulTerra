@@ -2,10 +2,21 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <div
-      class="self-center items-center inline-block h-10 w-10  md:h-9 md:w-9 lg:h-10 lg:w-10  animate-spin rounded-full border-4 md:border-[5px] border-solid border-current border-e-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite] border-blue-700"
-      role="status"
-    ></div>
+    <div class="border border-gray-50 shadow rounded-md p-4 max-w-sm w-full mx-auto">
+      <div class="animate-pulse flex space-x-4">
+        <div class="rounded-full bg-slate-200 h-10 w-10"></div>
+        <div class="flex-1 space-y-6 py-1">
+          <div class="h-2 bg-slate-200 rounded"></div>
+          <div class="space-y-3">
+            <div class="grid grid-cols-3 gap-4">
+              <div class="h-2 bg-slate-200 rounded col-span-2"></div>
+              <div class="h-2 bg-slate-200 rounded col-span-1"></div>
+            </div>
+            <div class="h-2 bg-slate-200 rounded"></div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

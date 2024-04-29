@@ -9,11 +9,12 @@ import Reviews from "../pages/Reviews.jsx";
 import Home from "../pages/Home.jsx";
 import items from "../Data/items.js";
 import Loader from "./Loader.jsx";
+import Message from "./Message.jsx";
 
 export default function Main() {
   console.log(items);
   return (
-    <main className="h-main-sm md:h-main-md lg:h-main-lg overflow-y-auto">
+    <main className="h-main-sm md:h-main-md lg:h-main-lg overflow-y-auto relative">
       <Container>
         {/* <Home />
         <SearchedItems />
@@ -25,6 +26,7 @@ export default function Main() {
         {/* <Spinner /> */}
         {/* <Reviews /> */}
         <Loader />
+        <Message />
       </Container>
     </main>
   );
