@@ -27,12 +27,9 @@ const Message = ({ children, status = true }) => {
 
   return (
     <div
-      className={`bg-white rounded-lg shadow-lg p-2 absolute right-2 top-2 md:right-4 md:top-4 text-sm md:text-base font-boldgit add .
-      git commit -m "Add changes"
-      git push -u origin main
-       transition-all  translate-x-[110%] ${
-         isVisible ? "translate-x-[0%]" : ""
-       }`}
+      className={`bg-white rounded-lg shadow-lg p-2 absolute right-2 top-2 md:right-4 md:top-4 text-sm md:text-base font-bold transition-all  translate-x-[110%] ${
+        isVisible ? "translate-x-[0%]" : ""
+      }`}
     >
       {children}
       <span
