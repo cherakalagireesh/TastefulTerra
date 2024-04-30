@@ -26,7 +26,7 @@ export default function Main() {
         {/* <Spinner /> */}
         {/* <Reviews /> */}
         {/* <Loader /> */}
-        {/* <Message /> */}
+        <Message status={false}>Successfully Login🥇</Message>
       </Container>
     </main>
   );
