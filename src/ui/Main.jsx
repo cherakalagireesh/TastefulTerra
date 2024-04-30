@@ -10,6 +10,7 @@ import Home from "../pages/Home.jsx";
 import items from "../Data/items.js";
 import Loader from "./Loader.jsx";
 import Message from "./Message.jsx";
+import Button from "./Button.jsx";
 
 export default function Main() {
   console.log(items);
@@ -27,6 +28,7 @@ export default function Main() {
         {/* <Reviews /> */}
         {/* <Loader /> */}
         <Message status={true}>Successfully Login🥇</Message>
+        <Button color="red"> Login</Button>
       </Container>
     </main>
   );
