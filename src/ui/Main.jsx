@@ -14,7 +14,7 @@ import Message from "./Message.jsx";
 export default function Main() {
   console.log(items);
   return (
-    <main className="h-main-sm md:h-main-md lg:h-main-lg overflow-y-auto relative">
+    <main className="h-main-sm md:h-main-md lg:h-main-lg overflow-y-auto relative overflow-hidden">
       <Container>
         <Home />
         <SearchedItems />
@@ -26,7 +26,7 @@ export default function Main() {
         {/* <Spinner /> */}
         {/* <Reviews /> */}
         {/* <Loader /> */}
-        <Message status={false}>Successfully Login🥇</Message>
+        <Message status={true}>Successfully Login🥇</Message>
       </Container>
     </main>
   );

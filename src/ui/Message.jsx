@@ -27,8 +27,8 @@ const Message = ({ children, status = true }) => {
 
   return (
     <div
-      className={`bg-white rounded-lg shadow-lg p-2 absolute right-2 top-2 md:right-4 md:top-4 text-sm md:text-base transition-all overflow-hidden ${
-        isVisible ? "translate-x-0" : "translate-x-full"
+      className={`bg-white rounded-lg shadow-lg p-2 absolute right-2 top-2 md:right-4 md:top-4 text-sm md:text-base transition-all  translate-x-[110%] ${
+        isVisible ? "translate-x-[0%]" : ""
       }`}
     >
       {children}
